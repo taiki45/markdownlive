@@ -493,6 +493,7 @@
 				PREBINDING = NO;
 				PRODUCT_NAME = ORCDiscount;
 				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -520,6 +521,7 @@
 				PREBINDING = NO;
 				PRODUCT_NAME = ORCDiscount;
 				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -539,6 +541,7 @@
 				INFOPLIST_FILE = "MarkdownLive-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = MarkdownLive;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -554,6 +557,7 @@
 				INFOPLIST_FILE = "MarkdownLive-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = MarkdownLive;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
